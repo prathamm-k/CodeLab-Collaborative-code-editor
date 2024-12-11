@@ -1,6 +1,6 @@
 # CodeLab: Real-Time Collaborative Code Editor
 
-![CodeLab Logo](path/to/logo.png)
+![CodeLab Logo](public/codelab.png)
 
 ## Overview
 
