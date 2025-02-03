@@ -52,9 +52,9 @@ Before installation, ensure you have:
    REACT_APP_BACKEND_URL=http://localhost:5000
    ```
 
-4. Start the development server:
+4. Start the development server in another terminal:
    ```bash
-   npm run dev
+   node server.js
    ```
 
    The application will be available at `http://localhost:3000`
