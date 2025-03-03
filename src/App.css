@@ -1,3 +1,7 @@
+body {
+  background: #27296C;
+}
+
 .homePageWrapper{
   height: 100vh;
   display: flex;
@@ -6,7 +10,7 @@
   color: #ffffff;
 }
 .formWrapper{
-  background: #282a36;
+  background: #393490;
   padding: 20px;
   border-radius: 20px;
   width: 400px;
@@ -50,33 +54,33 @@ footer{
 }
 .joinButton, .leaveButton{
   margin-top: 0;
-  background: #4aed88;
+  background: #8C15DB;
   width: 100px;
   margin-left: auto;
 }
 .joinButton:hover, .leaveButton:hover{
-  background: #2b824c;
+  background: #7D5B94;
 }
 .createInfo{
   margin: 0 auto;
   margin-top: 5px;
 }
 .createNewRoom{
-  color: #4aed88;
+  color: #8B85F7;
   text-decoration: none;
-  border-bottom: 1px solid #4aed88;
+  border-bottom: 1px solid #8B85F7;
   transition: all 0.3s ease-in-out;
 }
 .createNewRoom:hover{
-  color: #2b824c;
-  border-color: #2b824c;
+  color: #E9ABC7;
+  border-color: #E9ABC7;
 }
 .mainWrapper{
   display: grid;
   grid-template-columns: 230px 1fr;
 }
 .sideWrapper{
-  background: #1c1e29;
+  background: #49306B;
   padding: 16px;
   color: #ffffff;
   display: flex;
@@ -117,4 +121,20 @@ footer{
   font-size: 20px;
   line-height: 1.6;
   padding-top: 20px;
+  background: #1B1D4B !important;
+}
+.CodeMirror {
+  background: #1B1D4B !important;
+  color: #ffffff !important; /* Ensure text remains visible */
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.CodeMirror-scroll {
+  background: #1B1D4B !important;
+}
+
+.CodeMirror-gutters {
+  background: #1B1D4B !important;
+  border-right: none !important; /* Optional: adjust gutter border */
 }
