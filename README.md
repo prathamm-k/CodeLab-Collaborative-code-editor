@@ -36,7 +36,7 @@ CodeLab is a real-time collaborative code editor that allows multiple users to c
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/prathamm-k/CodeLab-Collaborative-code-editor
 cd codelab
 ```
 
