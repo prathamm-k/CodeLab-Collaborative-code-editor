@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/codelab.png" alt="CodeLab Logo" width="200"/>
+  <img src="public/codelab.png" alt="CodeLab Logo" width="700"/>
 </p>
 
 # CodeLab - Real-time Collaborative Code Editor
