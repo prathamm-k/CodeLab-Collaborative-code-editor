@@ -1,91 +1,96 @@
-# CodeLab: Real-Time Collaborative Code Editor
+<p align="center">
+  <img src="public/codelab.png" alt="CodeLab Logo" width="200"/>
+</p>
 
-![CodeLab Logo](public/codelab.png)
+# CodeLab - Real-time Collaborative Code Editor
 
-## Overview
+CodeLab is a real-time collaborative code editor that allows multiple users to code together in the same virtual room. Built with React, Socket.IO, and CodeMirror, it provides a seamless coding experience with real-time synchronization.
 
-CodeLab is a powerful, real-time collaborative code editor designed to enhance team productivity and streamline collaborative coding experiences. With seamless real-time editing, advanced features, and cross-platform support, CodeLab empowers developers to work together efficiently.
+## Features
 
-## 🌟 Features
+- Real-time code synchronization
+- Multiple users can join the same room
+- Python syntax highlighting
+- Auto-closing brackets and tags
+- Copy room ID functionality
+- User presence indicators
+- Clean and intuitive UI
 
-- **Real-Time Collaboration**: Multiple users can edit code simultaneously with instant updates
-- **Syntax Highlighting**: Comprehensive support for various programming languages
-- **Version Control**: Track and revert changes made by collaborators
-- **Integrated Chat**: Built-in communication tool for team collaboration
-- **Granular Permissions**: Configurable access levels (Read, Write, Admin)
-- **Auto-Save**: Periodic automatic saving to prevent data loss
-- **Cross-Platform Compatibility**: Works across different operating systems and browsers
+## Tech Stack
 
-## 🛠 Tech Stack
+- Frontend: React
+- Backend: Node.js, Express
+- Real-time Communication: Socket.IO
+- Code Editor: CodeMirror
+- Styling: CSS
+- State Management: React Hooks
 
-- **Frontend**: React.js, Codemirror Editor
-- **Backend**: Node.js, Express
-- **Real-Time Communication**: WebSockets (Socket.io)
-- **Authentication**: JWT (JSON Web Tokens)
-- **Deployment**: Docker, Heroku
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-Before installation, ensure you have:
-
 - Node.js (v14 or higher)
-- Git
+- npm (v6 or higher)
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/codelab.git
-   cd codelab
-   ```
+1. Clone the repository
+```bash
+git clone <repository-url>
+cd codelab
+```
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+2. Install dependencies
+```bash
+npm install
+```
 
-3. Configure environment variables:
-   Create a `.env` file in the root directory with:
-   ```
-   REACT_APP_BACKEND_URL=http://localhost:5000
-   ```
+3. Create a `.env` file in the root directory
+```
+REACT_APP_BACKEND_URL=http://localhost:5000
+```
 
-4. Start the development server in another terminal:
-   ```bash
-   node server.js
-   ```
+4. Start the development server
+```bash
+# Start the backend server
+npm run server:dev
 
-   The application will be available at `http://localhost:3000`
+# In a new terminal, start the frontend
+npm start
+```
 
-## 🤝 Contributing
+The application will be available at `http://localhost:3000`
 
-We welcome contributions! Here's how you can help:
+## Usage
+
+1. Visit the homepage
+2. Create a new room or join an existing one with a room ID
+3. Share the room ID with others to collaborate
+4. Start coding together in real-time
+
+## Development Scripts
+
+- `npm start` - Start the React development server
+- `npm run server:dev` - Start the backend server with hot-reload
+- `npm run server:prod` - Start the backend server in production mode
+- `npm run build` - Create a production build
+- `npm test` - Run tests
+
+## Contributing
 
 1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature-name`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/your-feature-name`)
-5. Create a Pull Request
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Please ensure your code adheres to the project's coding standards and includes appropriate tests.
+## License
 
-## 📄 License
+This project is open source and available under the [MIT License](LICENSE).
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## Acknowledgments
 
-## 🙏 Acknowledgements
-
-- [Codemirror5 Editor](https://codemirror.net/5/) for the code editing capabilities
-- [Socket.io](https://socket.io/) for real-time communication
-- [React.js](https://reactjs.org/) for frontend development
-- [Node.js](https://nodejs.org/) for backend infrastructure
-
-## 🌐 Contact
-
-For questions or support, please open an issue in the GitHub repository or contact [kairamkondapratham@gmail.com].
-
----
-
-**Happy Coding! 💻✨**
+- Built by Pratham
+- Uses CodeMirror for the code editor
+- Socket.IO for real-time communication
+- React for the frontend framework
